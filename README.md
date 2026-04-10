@@ -1,35 +1,35 @@
-# Penguin Data Analysis (Python EDA)
+# Palmer Penguins Data Analysis
 
-This project performs exploratory data analysis (EDA) on a penguin dataset to identify patterns and differences between species based on physical characteristics and distribution.
+This project explores the Palmer Penguins dataset using exploratory data analysis (EDA) and visualization techniques to uncover patterns in species characteristics.
 
 ## Objective
 
-The goal of this project is to analyze penguin species and uncover trends in features such as body mass, flipper length, and overall distribution using data visualization techniques.
+Analyze relationships between penguin features such as body mass, flipper length, and bill dimensions.
 
 ## Tools Used
 
-* Python
-* Pandas
-* Seaborn
-* Matplotlib
-* Jupyter Notebook
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
 
-## Analysis Performed
+## Visualizations
 
-* Explored species distribution within the dataset
-* Compared average body mass across species
-* Analyzed differences in flipper length between species
-* Visualized the distribution of body mass
-* Examined variability and outliers using boxplots
-* Identified relationships between features using a correlation heatmap
+### Correlation Heatmap
+![Correlation Heatmap](penguins-chart-1.png)
+
+### Body Mass Distribution
+![Body Mass Distribution](penguins-chart-2.png)
 
 ## Key Insights
 
-* Different penguin species show clear differences in body mass and flipper length
-* Body mass varies within species, with visible ranges and outliers
-* Strong relationships exist between physical features such as body mass and flipper length
-* Species distribution highlights variation in representation across the dataset
+- Strong correlations exist between body mass and flipper length  
+- Different species show distinct physical characteristics  
+- Body mass varies significantly across species  
 
-## Files
+## Project Files
 
-* `penguin_analysis.ipynb` – main notebook
+- `penguins_analysis.ipynb` – main notebook  
+- `penguins-chart-1.png` – correlation heatmap  
+- `penguins-chart-2.png` – body mass distribution  
